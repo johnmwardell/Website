@@ -8,26 +8,38 @@
 	<body>
 		<!-- HEADER -->
 		<header>
-			<!-- NAV -->
-			<nav class="menu-container">
+			&nbsp;
+		</header>
+		<!-- END HEADER -->
+		
+		<!-- NAV -->
+			<nav>
 				<ul class="menu">
+					<li class="menu-button">MENU</li>
 					<li><a href="#home">Home</a></li>
-					<li><a href="#about">About</a></li>
+					<li><a href="#about">About</a>
+						<ul class="submenu">
+							<li><a href="#reviews">Reviews</a></li>
+							<li><a href="#certifications">Certifications</a></li>
+						</ul>
+					</li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
 			<!-- END NAV -->
-		</header>
-		<!-- END HEADER -->
 		
 		<!-- MAIN CONTENT -->
 		<main>
 			<!-- HOME -->
 			<section id="home">
 				<div class="container">
-					<div class="text-center">
-						<span class="head-main"><h1>John Wardell</h1></span>
-					</div>
+					<span class="head-main"><h1>John Wardell</h1></span>
+				</div>
+				<div class="one-third-left">
+					<img class="profile" src="./images/profile.jpg" alt="John Wardell Profile">
+				</div>
+				<div class="container">
+					<p class="two-third-right">Experienced Information Technology Manager with a demonstrated history of working in the information technology and services industry. Skilled in both Information Technology and Full-Stack Software Development.</p>
 				</div>
 			</section>
 			<!-- END HOME -->
@@ -36,14 +48,30 @@
 			<section id="about">
 				<div class="container">
 					<h1>About</h1>
+					<div id="reviews" class="container">
+						<h3>Reviews</h3>
+						<div class="review container">
+							<h4>Adam A.</h4>
+							<p>Outstanding is an understatement.</p>
+							<p>I called John when I was having trouble with my computer that was beyond my understanding... John helped me with troubleshooting, hardware upgrades and software reconstruction.</p>
+							<p>John was patient, friendly, and understanding. He has an impressive knowledge of the latest programs on the market for diagnosis, repair, malware removal, and the overall market of computers. He was able to solve multi-layered problems and give feedback in simple terms as well as go into specifics on specs and explain pros and cons. He is happy to help educate you or just fix things which at different times I asked him to work in these different approaches based upon my level of enthusiasm and energy. When we moved into upgrading some hardware (my graphics card was in its last days by the time I called) his advice was helpful in both achieving better performance as well as identifying my needs and where I could be more sensible and save money.</p>
+							<p>I am very selective who I actual give my personal recommendation to and John has earned it without reservation. Honest, easy to work with, capable and just plain awesome.</p>
+						</div>
+						<div class="review container">
+							<h4>Brittany K.</h4>
+							<p>He was amazing. He came and deleted a large amount of viruses from my husband's computer. Cleaned up all the issues and made sure we were protected for the future. He told us what he was doing step by step as well. He was able to get it all cleaned up and ready to go. Not to mention he was super nice and we had a great conversation while he worked. He worked as quick as the laptop would let him! Would 100% recommend using him!</p>
+						</div>
+					</div>
 					<div class="about-gallery">
-						<h3>Awards</h3>
+						<h3 id="certifications">Certifications</h3>
+						
 						<!-- CONTAINER 1 -->
 						<div class="img">
 							<div class="aplus">
 							&nbsp;
 							</div>
 						</div>
+						<!-- END CONTAINER 1 -->
 						
 						<!-- CONTAINER 2 -->
 						<div class="img">
@@ -51,6 +79,8 @@
 							&nbsp;
 							</div>
 						</div>
+						<!-- END CONTAINER 2 -->
+						
 					</div>
 				</div>
 			</section>
@@ -58,6 +88,27 @@
 			
 			<!-- CONTACT -->
 			<section id="contact">
+				<div class="container">
+					<div class="heading-padding">
+						<h1 class="heading-padding">Contact</h1>
+						<div class="contact-content">
+							<h2><span>I would love to hear from you.</span></h2>
+							<br />If you want to chat, please fill out the form below!
+						</div>
+						<p class="contact-text">Please provide your basic contact information</p>
+						<div class="contact-form">
+							<form action="" method="POST">
+								<input class="contact" type="text" value="" placeholder="First Name"><br />
+								<input class="contact" type="text" value="" placeholder="Last Name"><br />
+								<input class="contact" type="text" value="" placeholder="E-Mail Address"><br />
+								<input class="contact" type="text" value="" placeholder="Phone Number"><br />
+								<div class="submit">
+									<input type="submit" value="Submit">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
 			</section>
 			<!-- END CONTACT -->
 		</main>
@@ -65,6 +116,7 @@
 		
 		<!-- FOOTER -->
 		<footer>
+			www.johnmwardell.com &nbsp; | &nbsp; &copy; 2017 John Wardell
 		</footer>
 		<!-- END FOOTER -->
 		
